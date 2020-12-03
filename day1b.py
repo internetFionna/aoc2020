@@ -1,6 +1,6 @@
 day1=open("day1.txt","r")
 numbersRaw=day1.read().split()
-day1.close
+day1.close()
 numbers=[]
 for num in range(199):
     numbers.append(int(numbersRaw[num]))
